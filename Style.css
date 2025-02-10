@@ -1,0 +1,99 @@
+.wrapper {
+    background-image: url(https://i.postimg.cc/3x2Hjp0B/crystals-1-63957.jpg);
+    background-size: cover; /* Растягивает фон по размеру экрана */
+    background-repeat: no-repeat; /* Убирает повтор */
+    background-position: center; /* Центрирует фон */
+    background-attachment: fixed; /* Фон фиксируется и не прокручивается */
+    min-height: 100vh; /* Минимальная высота равна высоте экрана */
+    margin: 0; /* Убирает отступы */
+    padding: 0; /* Убирает внутренние отступы */
+}
+
+
+
+
+
+h1 {
+    font-family: "Great Vibes", serif;
+    text-align: center;
+    color: coral;
+}
+
+table {
+    border-collapse: collapse; /* Убирает двойные границы */
+    width: auto;
+    text-align: center;
+    width: 50%; /* Задаем ширину таблицы */
+    margin: auto; /* Центрируем таблицу */
+}
+th, td {
+    border: 2px solid black; /* Граница ячеек */
+    padding: 8px; /* Внутренний отступ */
+    text-align: center; /* Выравнивание текста */
+    margin: 5px;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl; /* Поворачивает текст вертикально */
+    transform: rotate(180deg); 
+    text-align: center;
+    
+    
+               }
+
+               .compact-text {
+                line-height: 1; /* Уменьшает высоту строки */
+                margin: 0; /* Убирает дополнительные отступы */
+                padding: 0; /* Убирает внутренние отступы */
+            }
+
+      .color_1 {
+        background-color: rgba(248, 12, 0, 0.6);
+      }
+
+      .color {
+        background-color: rgba(6, 125, 236, 0.5);
+      }
+      
+
+      .back {
+        background-color: rgba(12, 237, 83, 0.2);
+      }
+
+      .back_1 {
+        background-color: rgba(219, 234, 13, 0.2);
+      }
+
+
+      .back_2 {
+        background-color: rgba(236, 118, 8, 0.2);
+      }
+
+      .back_3 {
+        background-color: rgba(236, 27, 8, 0.284);
+      }
+
+      .back_4 {
+        background-color: rgba(8, 213, 236, 0.284);
+      }
+
+      .back_5 {
+        background-color: rgba(8, 27, 236, 0.284);
+      }
+
+      button {
+        color: white; /* Цвет текста */
+        padding: 10px 20px; /* Внутренние отступы */
+        border: none; /* Убирает стандартную границу */
+        border-radius: 12px; /* Закругленные углы */
+        cursor: pointer; /* Изменение курсора при наведении */
+        font-size: 12px; /* Размер текста */
+        background-color: #d62222; /* Цвет при наведении */
+    }
+
+    
+        .bad {
+            background-color: rgba(212, 217, 221, 0.664);
+        }
+  
+     
