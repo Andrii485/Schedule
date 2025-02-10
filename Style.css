@@ -10,9 +10,6 @@
 }
 
 
-
-
-
 h1 {
     font-family: "Great Vibes", serif;
     text-align: center;
@@ -23,7 +20,7 @@ table {
     border-collapse: collapse; /* Убирает двойные границы */
     width: auto;
     text-align: center;
-    width: 50%; /* Задаем ширину таблицы */
+    width: 40%; /* Задаем ширину таблицы */
     margin: auto; /* Центрируем таблицу */
 }
 th, td {
@@ -96,4 +93,5 @@ th, td {
             background-color: rgba(212, 217, 221, 0.664);
         }
   
+        
      
