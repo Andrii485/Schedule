@@ -1,5 +1,11 @@
+body {
+  font-family:'Great Vibes';
+  
+}
+
+
 .wrapper {
-    background-image: url(https://i.postimg.cc/3x2Hjp0B/crystals-1-63957.jpg);
+    background-image: url(https://i.postimg.cc/FHkFQ8sM/color-palette-1-63884.jpg);
     background-size: cover; /* Растягивает фон по размеру экрана */
     background-repeat: no-repeat; /* Убирает повтор */
     background-position: center; /* Центрирует фон */
@@ -80,18 +86,30 @@ th, td {
       }
 
       button {
-        color: white; /* Цвет текста */
-        padding: 10px 20px; /* Внутренние отступы */
-        border: none; /* Убирает стандартную границу */
-        border-radius: 12px; /* Закругленные углы */
-        cursor: pointer; /* Изменение курсора при наведении */
-        font-size: 12px; /* Размер текста */
-        background-color: #dd1616; /* Цвет при наведении */
+        font-size: 10px;
+        font-weight: bold;
+        padding: 7px 7px;
+        border: none;
+        color: rgb(255, 255, 255);
+        border-radius: 7px;
+        cursor: pointer;
+        transition: transform 0.5s;
+        animation: rgbAnimation 5s infinite linear;
+        background: linear-gradient(90deg, red, orange, yellow, lime, green, cyan, blue, indigo, violet, pink, red);
+        background-size: 300% 100%;
+        transform: scale(1.1);
+
     }
+
+    @keyframes rgbAnimation {
+      0% { background-position: 100% 50%; }
+      100% { background-position: 300% 50%; } /* Движение вперед без скачков */
+  }
+    
 
     
         .bad {
-            background-color: rgba(212, 217, 221, 0.664);
+            background-color: rgba(167, 178, 187, 0.664);
         }
   
         
